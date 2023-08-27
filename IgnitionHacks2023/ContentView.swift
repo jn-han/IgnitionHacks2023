@@ -6,25 +6,19 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
-    var body: some View {
-        
-        
-        //Mark - Body
-        //hello
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("This is a piece of text")
-        }
-        .padding()
-    }
-}
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    var body: some View {
+            CameraView()
+                .frame(width: 2000, height: 700)
+    }
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+        
     }
 }
