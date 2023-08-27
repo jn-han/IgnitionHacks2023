@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17C919203898E09307A6F498 /* Pods_IgnitionHacks2023Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA70660007BD7714BF80D3A /* Pods_IgnitionHacks2023Tests.framework */; };
+		48A505BAB98A6810F5A689AB /* Pods_IgnitionHacks2023_IgnitionHacks2023UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC06127ABEA700712D6C73A /* Pods_IgnitionHacks2023_IgnitionHacks2023UITests.framework */; };
+		60CDC5622A9B35BC0054DB8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE372162A99BCC600333468 /* Assets.xcassets */; };
+		60F66C9A2A9B266400277A7B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F66C992A9B266400277A7B /* CameraView.swift */; };
+		97E07C5F9DE638F808E58F9D /* Pods_IgnitionHacks2023.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC683F9F45D92BEBDDBDEC79 /* Pods_IgnitionHacks2023.framework */; };
 		BFE372132A99BCC500333468 /* IgnitionHacks2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */; };
 		BFE372152A99BCC500333468 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372142A99BCC500333468 /* ContentView.swift */; };
-		BFE372172A99BCC600333468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE372162A99BCC600333468 /* Assets.xcassets */; };
-		BFE3721A2A99BCC600333468 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE372192A99BCC600333468 /* Preview Assets.xcassets */; };
 		BFE372242A99BCC600333468 /* IgnitionHacks2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372232A99BCC600333468 /* IgnitionHacks2023Tests.swift */; };
 		BFE3722E2A99BCC600333468 /* IgnitionHacks2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE3722D2A99BCC600333468 /* IgnitionHacks2023UITests.swift */; };
 		BFE372302A99BCC600333468 /* IgnitionHacks2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE3722F2A99BCC600333468 /* IgnitionHacks2023UITestsLaunchTests.swift */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DA70660007BD7714BF80D3A /* Pods_IgnitionHacks2023Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IgnitionHacks2023Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		406CB2CC6F0532727E1E0B1A /* Pods-IgnitionHacks2023-IgnitionHacks2023UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitionHacks2023-IgnitionHacks2023UITests.debug.xcconfig"; path = "Target Support Files/Pods-IgnitionHacks2023-IgnitionHacks2023UITests/Pods-IgnitionHacks2023-IgnitionHacks2023UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E4FFFAB2D69BDEBC2348077 /* Pods-IgnitionHacks2023-IgnitionHacks2023UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitionHacks2023-IgnitionHacks2023UITests.release.xcconfig"; path = "Target Support Files/Pods-IgnitionHacks2023-IgnitionHacks2023UITests/Pods-IgnitionHacks2023-IgnitionHacks2023UITests.release.xcconfig"; sourceTree = "<group>"; };
+		60F66C992A9B266400277A7B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		60F66C9B2A9B27A600277A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630CF34BB29A9F4B96542C38 /* Pods-IgnitionHacks2023.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitionHacks2023.release.xcconfig"; path = "Target Support Files/Pods-IgnitionHacks2023/Pods-IgnitionHacks2023.release.xcconfig"; sourceTree = "<group>"; };
+		BC683F9F45D92BEBDDBDEC79 /* Pods_IgnitionHacks2023.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IgnitionHacks2023.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE3720F2A99BCC500333468 /* IgnitionHacks2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgnitionHacks2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnitionHacks2023App.swift; sourceTree = "<group>"; };
 		BFE372142A99BCC500333468 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,10 @@
 		BFE372292A99BCC600333468 /* IgnitionHacks2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IgnitionHacks2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE3722D2A99BCC600333468 /* IgnitionHacks2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnitionHacks2023UITests.swift; sourceTree = "<group>"; };
 		BFE3722F2A99BCC600333468 /* IgnitionHacks2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnitionHacks2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAC06127ABEA700712D6C73A /* Pods_IgnitionHacks2023_IgnitionHacks2023UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IgnitionHacks2023_IgnitionHacks2023UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93A24DDE88379A7EF3FCCC5 /* Pods-IgnitionHacks2023Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitionHacks2023Tests.release.xcconfig"; path = "Target Support Files/Pods-IgnitionHacks2023Tests/Pods-IgnitionHacks2023Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F9F91DBB36B81CED172F98EF /* Pods-IgnitionHacks2023.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitionHacks2023.debug.xcconfig"; path = "Target Support Files/Pods-IgnitionHacks2023/Pods-IgnitionHacks2023.debug.xcconfig"; sourceTree = "<group>"; };
+		FAC789AFECE4A013A0DFCD6B /* Pods-IgnitionHacks2023Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitionHacks2023Tests.debug.xcconfig"; path = "Target Support Files/Pods-IgnitionHacks2023Tests/Pods-IgnitionHacks2023Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97E07C5F9DE638F808E58F9D /* Pods_IgnitionHacks2023.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C919203898E09307A6F498 /* Pods_IgnitionHacks2023Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +81,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A505BAB98A6810F5A689AB /* Pods_IgnitionHacks2023_IgnitionHacks2023UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34DCC1FB265A8DD73055E8F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC683F9F45D92BEBDDBDEC79 /* Pods_IgnitionHacks2023.framework */,
+				CAC06127ABEA700712D6C73A /* Pods_IgnitionHacks2023_IgnitionHacks2023UITests.framework */,
+				3DA70660007BD7714BF80D3A /* Pods_IgnitionHacks2023Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFE372062A99BCC500333468 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +105,8 @@
 				BFE372222A99BCC600333468 /* IgnitionHacks2023Tests */,
 				BFE3722C2A99BCC600333468 /* IgnitionHacks2023UITests */,
 				BFE372102A99BCC500333468 /* Products */,
+				CC2469A897BF2A79D004D615 /* Pods */,
+				34DCC1FB265A8DD73055E8F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +125,9 @@
 			children = (
 				BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */,
 				BFE372142A99BCC500333468 /* ContentView.swift */,
+				60F66C992A9B266400277A7B /* CameraView.swift */,
 				BFE372162A99BCC600333468 /* Assets.xcassets */,
+				60F66C9B2A9B27A600277A7B /* Info.plist */,
 				BFE372182A99BCC600333468 /* Preview Content */,
 			);
 			path = IgnitionHacks2023;
@@ -127,6 +158,19 @@
 			path = IgnitionHacks2023UITests;
 			sourceTree = "<group>";
 		};
+		CC2469A897BF2A79D004D615 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9F91DBB36B81CED172F98EF /* Pods-IgnitionHacks2023.debug.xcconfig */,
+				630CF34BB29A9F4B96542C38 /* Pods-IgnitionHacks2023.release.xcconfig */,
+				406CB2CC6F0532727E1E0B1A /* Pods-IgnitionHacks2023-IgnitionHacks2023UITests.debug.xcconfig */,
+				5E4FFFAB2D69BDEBC2348077 /* Pods-IgnitionHacks2023-IgnitionHacks2023UITests.release.xcconfig */,
+				FAC789AFECE4A013A0DFCD6B /* Pods-IgnitionHacks2023Tests.debug.xcconfig */,
+				E93A24DDE88379A7EF3FCCC5 /* Pods-IgnitionHacks2023Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFE372332A99BCC600333468 /* Build configuration list for PBXNativeTarget "IgnitionHacks2023" */;
 			buildPhases = (
+				96A499FEDDFD848E65B8E275 /* [CP] Check Pods Manifest.lock */,
 				BFE3720B2A99BCC500333468 /* Sources */,
 				BFE3720C2A99BCC500333468 /* Frameworks */,
 				BFE3720D2A99BCC500333468 /* Resources */,
+				79FA50482275264545CB0BF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFE372362A99BCC600333468 /* Build configuration list for PBXNativeTarget "IgnitionHacks2023Tests" */;
 			buildPhases = (
+				DC938B3DD968424B66C11C24 /* [CP] Check Pods Manifest.lock */,
 				BFE3721B2A99BCC600333468 /* Sources */,
 				BFE3721C2A99BCC600333468 /* Frameworks */,
 				BFE3721D2A99BCC600333468 /* Resources */,
@@ -169,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFE372392A99BCC600333468 /* Build configuration list for PBXNativeTarget "IgnitionHacks2023UITests" */;
 			buildPhases = (
+				B2B30D2DDF1474732EA71FE8 /* [CP] Check Pods Manifest.lock */,
 				BFE372252A99BCC600333468 /* Sources */,
 				BFE372262A99BCC600333468 /* Frameworks */,
 				BFE372272A99BCC600333468 /* Resources */,
+				E9E250CE0872E0EBE973F185 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE3721A2A99BCC600333468 /* Preview Assets.xcassets in Resources */,
-				BFE372172A99BCC600333468 /* Assets.xcassets in Resources */,
+				60CDC5622A9B35BC0054DB8C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +300,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79FA50482275264545CB0BF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IgnitionHacks2023/Pods-IgnitionHacks2023-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IgnitionHacks2023/Pods-IgnitionHacks2023-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IgnitionHacks2023/Pods-IgnitionHacks2023-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96A499FEDDFD848E65B8E275 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IgnitionHacks2023-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B30D2DDF1474732EA71FE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IgnitionHacks2023-IgnitionHacks2023UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC938B3DD968424B66C11C24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IgnitionHacks2023Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E250CE0872E0EBE973F185 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IgnitionHacks2023-IgnitionHacks2023UITests/Pods-IgnitionHacks2023-IgnitionHacks2023UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IgnitionHacks2023-IgnitionHacks2023UITests/Pods-IgnitionHacks2023-IgnitionHacks2023UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IgnitionHacks2023-IgnitionHacks2023UITests/Pods-IgnitionHacks2023-IgnitionHacks2023UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFE3720B2A99BCC500333468 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +410,7 @@
 			files = (
 				BFE372152A99BCC500333468 /* ContentView.swift in Sources */,
 				BFE372132A99BCC500333468 /* IgnitionHacks2023App.swift in Sources */,
+				60F66C9A2A9B266400277A7B /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,15 +563,17 @@
 		};
 		BFE372342A99BCC600333468 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F91DBB36B81CED172F98EF /* Pods-IgnitionHacks2023.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IgnitionHacks2023/Preview Content\"";
-				DEVELOPMENT_TEAM = JYVA5Q4RV2;
+				DEVELOPMENT_TEAM = 8KNYCQ9DRM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,7 +584,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = samsantech.IgnitionHacks2023;
+				PRODUCT_BUNDLE_IDENTIFIER = inteflow2.IgnitionHacks2023;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -440,15 +594,17 @@
 		};
 		BFE372352A99BCC600333468 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630CF34BB29A9F4B96542C38 /* Pods-IgnitionHacks2023.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IgnitionHacks2023/Preview Content\"";
-				DEVELOPMENT_TEAM = JYVA5Q4RV2;
+				DEVELOPMENT_TEAM = 8KNYCQ9DRM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,7 +615,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = samsantech.IgnitionHacks2023;
+				PRODUCT_BUNDLE_IDENTIFIER = inteflow2.IgnitionHacks2023;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -469,13 +625,14 @@
 		};
 		BFE372372A99BCC600333468 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC789AFECE4A013A0DFCD6B /* Pods-IgnitionHacks2023Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYVA5Q4RV2;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = samsantech.IgnitionHacks2023Tests;
@@ -489,13 +646,14 @@
 		};
 		BFE372382A99BCC600333468 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E93A24DDE88379A7EF3FCCC5 /* Pods-IgnitionHacks2023Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYVA5Q4RV2;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = samsantech.IgnitionHacks2023Tests;
@@ -509,12 +667,13 @@
 		};
 		BFE3723A2A99BCC600333468 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406CB2CC6F0532727E1E0B1A /* Pods-IgnitionHacks2023-IgnitionHacks2023UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYVA5Q4RV2;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = samsantech.IgnitionHacks2023UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,12 +686,13 @@
 		};
 		BFE3723B2A99BCC600333468 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E4FFFAB2D69BDEBC2348077 /* Pods-IgnitionHacks2023-IgnitionHacks2023UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYVA5Q4RV2;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = samsantech.IgnitionHacks2023UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

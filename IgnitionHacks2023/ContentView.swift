@@ -8,23 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        
-        
-        //Mark - Body
-        //hello
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("This is a piece of text")
-        }
-        .padding()
-    }
-}
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    var body: some View {
+        VStack {
+            Text("Camera Interface")
+                .font(.largeTitle)
+            CameraView()
+                .frame(width: 300, height: 300)
+                .border(Color.gray, width: 1)
+        }
+    }
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+        
     }
 }
