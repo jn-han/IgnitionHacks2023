@@ -9,36 +9,6 @@ import SwiftUI
 import AVFoundation
 import UIKit
 
-//struct CameraView: UIViewRepresentable {
-//    func makeUIView(context: Context) -> UIView {
-//        let view = UIView(frame: CGRect.zero)
-//
-//        let captureSession = AVCaptureSession()
-//
-//        let captureSessionQueue = DispatchQueue(label: "com.myapp.captureSessionQueue")
-//        captureSessionQueue.async {
-//            // Perform heavy setup tasks
-//
-//            captureSession.startRunning()
-//
-//            DispatchQueue.main.async {
-//                // Configure preview layer and add to view
-//                let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
-//                previewLayer.frame = view.layer.bounds
-//                view.layer.addSublayer(previewLayer)
-//            }
-//        }
-//
-//        return view
-//    }
-//
-//    func updateUIView(_ uiView: UIView, context: Context) {
-//        // Handle updates, if needed
-//    }
-//}
-
-
-
  struct CameraView: UIViewRepresentable {
     func makeUIView(context: Context) -> UIView {
         let view = UIView(frame: CGRect.zero)
@@ -63,6 +33,6 @@ import UIKit
     }
 
     func updateUIView(_ uiView: UIView, context: Context) {
-        // Handle updates, if needed
+   
     }
 }

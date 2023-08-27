@@ -11,13 +11,8 @@ import UIKit
 struct ContentView: View {
 
     var body: some View {
-        VStack {
-            Text("Camera Interface")
-                .font(.largeTitle)
             CameraView()
-                .frame(width: 350, height: 400)
-                .border(Color.gray, width: 1)
-        }
+                .frame(width: 2000, height: 700)
     }
     
     struct ContentView_Previews: PreviewProvider {
