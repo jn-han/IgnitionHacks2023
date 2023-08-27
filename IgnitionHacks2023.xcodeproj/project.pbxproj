@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		156CA7852A9AFEA20026DF6F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CA7842A9AFEA20026DF6F /* Home.swift */; };
+		157C19EA2A9B2F6B005F24A5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C19E92A9B2F6B005F24A5 /* Profile.swift */; };
+		157C19EE2A9B318B005F24A5 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C19ED2A9B318B005F24A5 /* Tabs.swift */; };
 		BFE372132A99BCC500333468 /* IgnitionHacks2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */; };
 		BFE372152A99BCC500333468 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372142A99BCC500333468 /* ContentView.swift */; };
 		BFE372172A99BCC600333468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE372162A99BCC600333468 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		156CA7842A9AFEA20026DF6F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		157C19E92A9B2F6B005F24A5 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		157C19ED2A9B318B005F24A5 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		BFE3720F2A99BCC500333468 /* IgnitionHacks2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgnitionHacks2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnitionHacks2023App.swift; sourceTree = "<group>"; };
 		BFE372142A99BCC500333468 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 		BFE372112A99BCC500333468 /* IgnitionHacks2023 */ = {
 			isa = PBXGroup;
 			children = (
+				157C19E92A9B2F6B005F24A5 /* Profile.swift */,
+				157C19ED2A9B318B005F24A5 /* Tabs.swift */,
 				BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */,
 				BFE372142A99BCC500333468 /* ContentView.swift */,
 				156CA7842A9AFEA20026DF6F /* Home.swift */,
@@ -261,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFE372152A99BCC500333468 /* ContentView.swift in Sources */,
+				157C19EA2A9B2F6B005F24A5 /* Profile.swift in Sources */,
 				156CA7852A9AFEA20026DF6F /* Home.swift in Sources */,
+				157C19EE2A9B318B005F24A5 /* Tabs.swift in Sources */,
 				BFE372132A99BCC500333468 /* IgnitionHacks2023App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
