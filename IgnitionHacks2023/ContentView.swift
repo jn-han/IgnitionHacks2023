@@ -25,7 +25,11 @@ struct ContentView: View {
                         Label("Home", systemImage: "house")
                     }
                 
-                Spacer()
+//                Spacer()
+                CameraView()
+                    .tabItem{
+                        Label("Camera", systemImage: "camera")
+                    }
                 
 
                 
@@ -35,20 +39,20 @@ struct ContentView: View {
                     }
                     Spacer()
             }
-            .navigationBarTitle("", displayMode: .inline) // Hide navigation title
-            .overlay(
-                NavigationLink(destination: Profile()) {
-                    Image(systemName: "camera")
-                        .foregroundColor(.white)
-                        .font(.system(size: 30))
-                        .frame(width: 80, height: 80)
-                        .background(Color.blue) // Use your CustomColor here
-                        .cornerRadius(40) // Adjust as needed
-                        .padding(.bottom, 16)
-                }
-                .padding(.trailing, 155), // Adjust the trailing padding as needed
-                alignment: .bottomTrailing
-            )
+//            .navigationBarTitle("", displayMode: .inline) // Hide navigation title
+//            .overlay(
+//                NavigationLink(destination: CameraView()) {
+//                    Image(systemName: "camera")
+//                        .foregroundColor(.white)
+//                        .font(.system(size: 30))
+//                        .frame(width: 80, height: 80)
+//                        .background(Color.blue) // Use your CustomColor here
+//                        .cornerRadius(40) // Adjust as needed
+//                        .padding(.bottom, 16)
+//                }
+//                .padding(.trailing, 155), // Adjust the trailing padding as needed
+//                alignment: .bottomTrailing
+//            )
         
 
         }

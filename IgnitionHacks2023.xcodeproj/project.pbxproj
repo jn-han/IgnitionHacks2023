@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
 		156CA7852A9AFEA20026DF6F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CA7842A9AFEA20026DF6F /* Home.swift */; };
 		157C19EA2A9B2F6B005F24A5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C19E92A9B2F6B005F24A5 /* Profile.swift */; };
 		157C19EE2A9B318B005F24A5 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C19ED2A9B318B005F24A5 /* Tabs.swift */; };
@@ -41,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-
 		156CA7842A9AFEA20026DF6F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		157C19E92A9B2F6B005F24A5 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		157C19ED2A9B318B005F24A5 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
@@ -584,11 +582,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IgnitionHacks2023/Preview Content\"";
-
-				DEVELOPMENT_TEAM = WKF7PG48YB;
-
 				DEVELOPMENT_TEAM = 8KNYCQ9DRM;
-
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan text";
@@ -602,9 +596,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-
-				PRODUCT_BUNDLE_IDENTIFIER = inteflow.IgnitionHacks2023;
-
+				PRODUCT_BUNDLE_IDENTIFIER = inteflow2.IgnitionHacks2023;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -621,11 +613,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IgnitionHacks2023/Preview Content\"";
-
-				DEVELOPMENT_TEAM = WKF7PG48YB;
-
 				DEVELOPMENT_TEAM = 8KNYCQ9DRM;
-
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan text";
@@ -639,9 +627,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-
-				PRODUCT_BUNDLE_IDENTIFIER = inteflow.IgnitionHacks2023;
-
+				PRODUCT_BUNDLE_IDENTIFIER = inteflow2.IgnitionHacks2023;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
