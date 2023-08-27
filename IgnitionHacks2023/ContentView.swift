@@ -23,6 +23,22 @@ struct ContentView: View {
                     }
                 }
             }
+            HStack {
+                TextField("Enter a message", text: $messageText )
+
+                    .padding()
+                    .background(.gray.opacity(0.1))
+                    .cornerRadius(12)
+                Button {
+                    
+                } label: {
+                    Text("Send")
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(.black)
+                        .cornerRadius(12)
+                }
+            }
         }
         .padding()
     }
