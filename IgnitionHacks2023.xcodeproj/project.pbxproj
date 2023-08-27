@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		156CA7852A9AFEA20026DF6F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CA7842A9AFEA20026DF6F /* Home.swift */; };
+		15A50A572A9B6EEF00667E6E /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A50A562A9B6EEF00667E6E /* Chat.swift */; };
 		BF824E0E2A9B496A00F8D690 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824E0D2A9B496A00F8D690 /* Constants.swift */; };
 		BF824E102A9B49B100F8D690 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824E0F2A9B49B100F8D690 /* OpenAIService.swift */; };
 		BF824E132A9B4A3000F8D690 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BF824E122A9B4A3000F8D690 /* Alamofire */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		156CA7842A9AFEA20026DF6F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		15A50A562A9B6EEF00667E6E /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		BF824E0D2A9B496A00F8D690 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BF824E0F2A9B49B100F8D690 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		BFE3720F2A99BCC500333468 /* IgnitionHacks2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgnitionHacks2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 				BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */,
 				BF824E0F2A9B49B100F8D690 /* OpenAIService.swift */,
 				BF824E0D2A9B496A00F8D690 /* Constants.swift */,
+				15A50A562A9B6EEF00667E6E /* Chat.swift */,
 				BFE372142A99BCC500333468 /* ContentView.swift */,
 				156CA7842A9AFEA20026DF6F /* Home.swift */,
 				BFE372162A99BCC600333468 /* Assets.xcassets */,
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFE372152A99BCC500333468 /* ContentView.swift in Sources */,
+				15A50A572A9B6EEF00667E6E /* Chat.swift in Sources */,
 				156CA7852A9AFEA20026DF6F /* Home.swift in Sources */,
 				BF824E102A9B49B100F8D690 /* OpenAIService.swift in Sources */,
 				BFE372132A99BCC500333468 /* IgnitionHacks2023App.swift in Sources */,
@@ -441,7 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IgnitionHacks2023/Preview Content\"";
-				DEVELOPMENT_TEAM = JYVA5Q4RV2;
+				DEVELOPMENT_TEAM = WKF7PG48YB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -454,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = josh.Inteflow;
+				PRODUCT_BUNDLE_IDENTIFIER = kennedy.Inteflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,7 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IgnitionHacks2023/Preview Content\"";
-				DEVELOPMENT_TEAM = JYVA5Q4RV2;
+				DEVELOPMENT_TEAM = WKF7PG48YB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -483,7 +487,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = josh.Inteflow;
+				PRODUCT_BUNDLE_IDENTIFIER = kenne.Inteflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
