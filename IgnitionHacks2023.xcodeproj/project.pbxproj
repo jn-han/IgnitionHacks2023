@@ -8,15 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		156CA7852A9AFEA20026DF6F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CA7842A9AFEA20026DF6F /* Home.swift */; };
+
 		15A50A572A9B6EEF00667E6E /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A50A562A9B6EEF00667E6E /* Chat.swift */; };
 		BF824E0E2A9B496A00F8D690 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824E0D2A9B496A00F8D690 /* Constants.swift */; };
 		BF824E102A9B49B100F8D690 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824E0F2A9B49B100F8D690 /* OpenAIService.swift */; };
 		BF824E132A9B4A3000F8D690 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BF824E122A9B4A3000F8D690 /* Alamofire */; };
 		BFCA0FB62A9B1446008E8D27 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFCA0FB52A9B1446008E8D27 /* OpenAISwift */; };
+
+		157C19EA2A9B2F6B005F24A5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C19E92A9B2F6B005F24A5 /* Profile.swift */; };
+		157C19EE2A9B318B005F24A5 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C19ED2A9B318B005F24A5 /* Tabs.swift */; };
+		60CDC5622A9B35BC0054DB8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE372162A99BCC600333468 /* Assets.xcassets */; };
+		60F66C9A2A9B266400277A7B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F66C992A9B266400277A7B /* CameraView.swift */; };
+
 		BFE372132A99BCC500333468 /* IgnitionHacks2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */; };
 		BFE372152A99BCC500333468 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372142A99BCC500333468 /* ContentView.swift */; };
-		BFE372172A99BCC600333468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE372162A99BCC600333468 /* Assets.xcassets */; };
-		BFE3721A2A99BCC600333468 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE372192A99BCC600333468 /* Preview Assets.xcassets */; };
 		BFE372242A99BCC600333468 /* IgnitionHacks2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372232A99BCC600333468 /* IgnitionHacks2023Tests.swift */; };
 		BFE3722E2A99BCC600333468 /* IgnitionHacks2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE3722D2A99BCC600333468 /* IgnitionHacks2023UITests.swift */; };
 		BFE372302A99BCC600333468 /* IgnitionHacks2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE3722F2A99BCC600333468 /* IgnitionHacks2023UITestsLaunchTests.swift */; };
@@ -41,9 +46,16 @@
 
 /* Begin PBXFileReference section */
 		156CA7842A9AFEA20026DF6F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+
 		15A50A562A9B6EEF00667E6E /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		BF824E0D2A9B496A00F8D690 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BF824E0F2A9B49B100F8D690 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+
+		157C19E92A9B2F6B005F24A5 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		157C19ED2A9B318B005F24A5 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		60F66C992A9B266400277A7B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		60F66C9B2A9B27A600277A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
 		BFE3720F2A99BCC500333468 /* IgnitionHacks2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgnitionHacks2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnitionHacks2023App.swift; sourceTree = "<group>"; };
 		BFE372142A99BCC500333468 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +102,7 @@
 				BFE372222A99BCC600333468 /* IgnitionHacks2023Tests */,
 				BFE3722C2A99BCC600333468 /* IgnitionHacks2023UITests */,
 				BFE372102A99BCC500333468 /* Products */,
+				CC2469A897BF2A79D004D615 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,13 +119,19 @@
 		BFE372112A99BCC500333468 /* IgnitionHacks2023 */ = {
 			isa = PBXGroup;
 			children = (
+				157C19E92A9B2F6B005F24A5 /* Profile.swift */,
+				157C19ED2A9B318B005F24A5 /* Tabs.swift */,
 				BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */,
 				BF824E0F2A9B49B100F8D690 /* OpenAIService.swift */,
 				BF824E0D2A9B496A00F8D690 /* Constants.swift */,
 				15A50A562A9B6EEF00667E6E /* Chat.swift */,
 				BFE372142A99BCC500333468 /* ContentView.swift */,
 				156CA7842A9AFEA20026DF6F /* Home.swift */,
+
+				60F66C992A9B266400277A7B /* CameraView.swift */,
+
 				BFE372162A99BCC600333468 /* Assets.xcassets */,
+				60F66C9B2A9B27A600277A7B /* Info.plist */,
 				BFE372182A99BCC600333468 /* Preview Content */,
 			);
 			path = IgnitionHacks2023;
@@ -141,6 +160,13 @@
 				BFE3722F2A99BCC600333468 /* IgnitionHacks2023UITestsLaunchTests.swift */,
 			);
 			path = IgnitionHacks2023UITests;
+			sourceTree = "<group>";
+		};
+		CC2469A897BF2A79D004D615 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE3721A2A99BCC600333468 /* Preview Assets.xcassets in Resources */,
-				BFE372172A99BCC600333468 /* Assets.xcassets in Resources */,
+				60CDC5622A9B35BC0054DB8C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +307,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFE372152A99BCC500333468 /* ContentView.swift in Sources */,
+
 				15A50A572A9B6EEF00667E6E /* Chat.swift in Sources */,
 				156CA7852A9AFEA20026DF6F /* Home.swift in Sources */,
 				BF824E102A9B49B100F8D690 /* OpenAIService.swift in Sources */,
 				BFE372132A99BCC500333468 /* IgnitionHacks2023App.swift in Sources */,
 				BF824E0E2A9B496A00F8D690 /* Constants.swift in Sources */,
+
+				157C19EA2A9B2F6B005F24A5 /* Profile.swift in Sources */,
+				156CA7852A9AFEA20026DF6F /* Home.swift in Sources */,
+				157C19EE2A9B318B005F24A5 /* Tabs.swift in Sources */,
+				BFE372132A99BCC500333468 /* IgnitionHacks2023App.swift in Sources */,
+				60F66C9A2A9B266400277A7B /* CameraView.swift in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +481,7 @@
 				DEVELOPMENT_TEAM = WKF7PG48YB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,7 +492,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+
 				PRODUCT_BUNDLE_IDENTIFIER = kennedy.Inteflow;
+
+				PRODUCT_BUNDLE_IDENTIFIER = inteflo1.IgnitionHacks2023;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -471,12 +508,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IgnitionHacks2023/Preview Content\"";
+
 				DEVELOPMENT_TEAM = WKF7PG48YB;
+
+				DEVELOPMENT_TEAM = "";
+
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -487,8 +529,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+
 				PRODUCT_BUNDLE_IDENTIFIER = kenne.Inteflow;
+
+				PRODUCT_BUNDLE_IDENTIFIER = inteflow2.IgnitionHacks2023;
+
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -503,7 +550,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYVA5Q4RV2;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = samsantech.IgnitionHacks2023Tests;
@@ -523,7 +570,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYVA5Q4RV2;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = samsantech.IgnitionHacks2023Tests;
@@ -542,7 +589,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYVA5Q4RV2;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = samsantech.IgnitionHacks2023UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,7 +607,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYVA5Q4RV2;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = samsantech.IgnitionHacks2023UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

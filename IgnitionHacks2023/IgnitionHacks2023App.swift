@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+import UIKit
+import AVFoundation
+
 @main
 struct IgnitionHacks2023App: App {
     var body: some Scene {
