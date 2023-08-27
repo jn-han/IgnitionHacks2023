@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		156CA7852A9AFEA20026DF6F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CA7842A9AFEA20026DF6F /* Home.swift */; };
+		BF824E0E2A9B496A00F8D690 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824E0D2A9B496A00F8D690 /* Constants.swift */; };
+		BF824E102A9B49B100F8D690 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824E0F2A9B49B100F8D690 /* OpenAIService.swift */; };
+		BF824E132A9B4A3000F8D690 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BF824E122A9B4A3000F8D690 /* Alamofire */; };
 		BFCA0FB62A9B1446008E8D27 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFCA0FB52A9B1446008E8D27 /* OpenAISwift */; };
 		BFE372132A99BCC500333468 /* IgnitionHacks2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */; };
 		BFE372152A99BCC500333468 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372142A99BCC500333468 /* ContentView.swift */; };
@@ -37,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		156CA7842A9AFEA20026DF6F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BF824E0D2A9B496A00F8D690 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BF824E0F2A9B49B100F8D690 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		BFE3720F2A99BCC500333468 /* IgnitionHacks2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgnitionHacks2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnitionHacks2023App.swift; sourceTree = "<group>"; };
 		BFE372142A99BCC500333468 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFCA0FB62A9B1446008E8D27 /* OpenAISwift in Frameworks */,
+				BF824E132A9B4A3000F8D690 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */,
+				BF824E0F2A9B49B100F8D690 /* OpenAIService.swift */,
+				BF824E0D2A9B496A00F8D690 /* Constants.swift */,
 				BFE372142A99BCC500333468 /* ContentView.swift */,
 				156CA7842A9AFEA20026DF6F /* Home.swift */,
 				BFE372162A99BCC600333468 /* Assets.xcassets */,
@@ -150,6 +158,7 @@
 			name = IgnitionHacks2023;
 			packageProductDependencies = (
 				BFCA0FB52A9B1446008E8D27 /* OpenAISwift */,
+				BF824E122A9B4A3000F8D690 /* Alamofire */,
 			);
 			productName = IgnitionHacks2023;
 			productReference = BFE3720F2A99BCC500333468 /* IgnitionHacks2023.app */;
@@ -225,6 +234,7 @@
 			mainGroup = BFE372062A99BCC500333468;
 			packageReferences = (
 				BFCA0FB42A9B1446008E8D27 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+				BF824E112A9B4A3000F8D690 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = BFE372102A99BCC500333468 /* Products */;
 			projectDirPath = "";
@@ -270,7 +280,9 @@
 			files = (
 				BFE372152A99BCC500333468 /* ContentView.swift in Sources */,
 				156CA7852A9AFEA20026DF6F /* Home.swift in Sources */,
+				BF824E102A9B49B100F8D690 /* OpenAIService.swift in Sources */,
 				BFE372132A99BCC500333468 /* IgnitionHacks2023App.swift in Sources */,
+				BF824E0E2A9B496A00F8D690 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +609,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BF824E112A9B4A3000F8D690 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		BFCA0FB42A9B1446008E8D27 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
@@ -608,6 +628,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BF824E122A9B4A3000F8D690 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF824E112A9B4A3000F8D690 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		BFCA0FB52A9B1446008E8D27 /* OpenAISwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BFCA0FB42A9B1446008E8D27 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
