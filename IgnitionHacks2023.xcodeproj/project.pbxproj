@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		156CA7852A9AFEA20026DF6F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CA7842A9AFEA20026DF6F /* Home.swift */; };
+		BFCA0FB62A9B1446008E8D27 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFCA0FB52A9B1446008E8D27 /* OpenAISwift */; };
 		BFE372132A99BCC500333468 /* IgnitionHacks2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372122A99BCC500333468 /* IgnitionHacks2023App.swift */; };
 		BFE372152A99BCC500333468 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE372142A99BCC500333468 /* ContentView.swift */; };
 		BFE372172A99BCC600333468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE372162A99BCC600333468 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCA0FB62A9B1446008E8D27 /* OpenAISwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = IgnitionHacks2023;
+			packageProductDependencies = (
+				BFCA0FB52A9B1446008E8D27 /* OpenAISwift */,
+			);
 			productName = IgnitionHacks2023;
 			productReference = BFE3720F2A99BCC500333468 /* IgnitionHacks2023.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +223,9 @@
 				Base,
 			);
 			mainGroup = BFE372062A99BCC500333468;
+			packageReferences = (
+				BFCA0FB42A9B1446008E8D27 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
 			productRefGroup = BFE372102A99BCC500333468 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -421,7 +429,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IgnitionHacks2023/Preview Content\"";
-				DEVELOPMENT_TEAM = WKF7PG48YB;
+				DEVELOPMENT_TEAM = JYVA5Q4RV2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -434,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = inteflow.IgnitionHacks2023;
+				PRODUCT_BUNDLE_IDENTIFIER = josh.Inteflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,7 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IgnitionHacks2023/Preview Content\"";
-				DEVELOPMENT_TEAM = WKF7PG48YB;
+				DEVELOPMENT_TEAM = JYVA5Q4RV2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -463,7 +471,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = inteflow.IgnitionHacks2023;
+				PRODUCT_BUNDLE_IDENTIFIER = josh.Inteflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -587,6 +595,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFCA0FB42A9B1446008E8D27 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFCA0FB52A9B1446008E8D27 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFCA0FB42A9B1446008E8D27 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFE372072A99BCC500333468 /* Project object */;
 }
