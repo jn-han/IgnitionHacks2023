@@ -32,6 +32,20 @@ struct ContentView: View {
                     }
                     Spacer()
             }
+            .navigationBarTitle("", displayMode: .inline) // Hide navigation title
+            .overlay(
+                NavigationLink(destination: Profile()) {
+                    Image(systemName: "camera")
+                        .foregroundColor(.white)
+                        .font(.system(size: 30))
+                        .frame(width: 80, height: 80)
+                        .background(Color.blue) // Use your CustomColor here
+                        .cornerRadius(40) // Adjust as needed
+                        .padding(.bottom, 16)
+                }
+                .padding(.trailing, 155), // Adjust the trailing padding as needed
+                alignment: .bottomTrailing
+            )
         
 
         }
@@ -185,17 +199,17 @@ struct ExtractedView: View {
                     .padding(.top, -15)
             }
             
-            VStack{
-                NavigationLink(destination: Profile()) {
-                    Text("Go!").ignoresSafeArea()
-                                            .frame(width: 50, height: 50, alignment: .center)
-                                            .background(Color.black)
-                                            .cornerRadius(11000)
-                                            .padding(.top, 320)
-                                            .padding(.bottom, -320)
-                    
-                                    }
-            }
+//            VStack{
+//                NavigationLink(destination: Profile()) {
+//                    Text("Go!").ignoresSafeArea()
+//                                            .frame(width: 50, height: 50, alignment: .center)
+//                                            .background(Color.black)
+//                                            .cornerRadius(11000)
+//                                            .padding(.top, 320)
+//                                            .padding(.bottom, -320)
+//
+//                                    }
+//            }
             
             
         }
