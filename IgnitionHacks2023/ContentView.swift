@@ -8,10 +8,13 @@
 
 
 import SwiftUI
+import UIKit
 
 
 struct ContentView: View {
+
     var body: some View {
+
         
             TabView {
                 ExtractedView()
@@ -116,8 +119,13 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+
+            
     }
+    
 }
+
+
 //NavigationView {
 //    VStack{
 //        Text("Welcome Back, Miguel!")
