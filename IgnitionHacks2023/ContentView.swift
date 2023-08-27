@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
 
@@ -14,7 +15,7 @@ struct ContentView: View {
             Text("Camera Interface")
                 .font(.largeTitle)
             CameraView()
-                .frame(width: 300, height: 300)
+                .frame(width: 350, height: 400)
                 .border(Color.gray, width: 1)
         }
     }
