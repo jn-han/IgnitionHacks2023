@@ -1,4 +1,4 @@
-# IgnitionHacks2023
+# inteflow - IgnitionHacks 2023 Hackathon Submission
 
 ## Inspiration
 The inspiration behind inteflow was born from our shared struggle with math. Despite diverse backgrounds in mathematics, we all shared a common experience of finding math to be a significant challenge. Recognizing the need for extra support our aim was to develop a tool that would make math more accessible, understandable and simplify the learning process.
